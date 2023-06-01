@@ -1,0 +1,59 @@
+.faq .faqs .f .title {
+	color: var(--dark-gray) !important;
+}
+.faq .text p {
+	color: var(--gray-text) !important;
+}
+.faq .faqs .f:not(:last-child) {
+	border-bottom: none !important;
+}
+.faq .faqs .f {
+	border-color: rgb(228, 228, 228) !important;
+}
+.faq {
+	margin-bottom: 10rem !important;
+}
+.faq .faqs  .faq-p1 {
+	padding: 1.75rem;
+	margin: 0 !important;
+	line-height: 1.8;
+	display: none;
+	border-left: 1px solid rgb(238 238 238);
+	border-right: 1px solid rgb(238 238 238);
+	max-width: none;
+	width: 100%;
+	color: var(--gray-text) !important;
+}
+.faq .faqs .faq-p2 {
+	padding: 1.75rem;
+	margin: 0 !important;
+	line-height: 1.8;
+	display: none;
+	border-left: 1px solid rgb(238 238 238);
+	border-right: 1px solid rgb(238 238 238);
+	max-width: none;
+	width: 100%;
+	color: var(--gray-text) !important;
+}
+.faq .faqs .faq-p3 {
+	padding: 1.75rem;
+	margin: 0 !important;
+	line-height: 1.8;
+	display: none;
+	border-left: 1px solid rgb(238 238 238);
+	border-right: 1px solid rgb(238 238 238);
+	max-width: none;
+	width: 100%;
+	color: var(--gray-text) !important;
+}
+.faq .faqs .faq-p4 {
+	padding: 1.75rem;
+	margin: 0 !important;
+	line-height: 1.8;
+	display: none;
+	border-left: 1px solid rgb(238 238 238) !important;
+	border-right: 1px solid rgb(238 238 238) !important;
+	max-width: none;
+	width: 100%;
+	color: var(--gray-text) !important;
+}

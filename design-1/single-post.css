@@ -1,0 +1,77 @@
+.container-single .source,
+.container-single .date {
+	color: var(--dark-gray);
+}
+.container-single .date span,
+.container-single .source span {
+	color: var(--gray-text);
+}
+.single-img.container {
+	margin-bottom: 5rem;
+	max-width: 970px;
+}
+.container .h4 {
+	margin-bottom: 2rem !important;
+}
+.container ul {
+	margin-bottom: 2rem;
+}
+.container ul li {
+	color: var(--dark-gray) !important;
+}
+.container ul:not(.numbers) li::before {
+	content: url("/images/Oval.svg");
+	margin-right: 1rem;
+	font-size: 1rem;
+}
+.container blockquote {
+	display: flex;
+	gap: 2rem;
+	align-items: flex-start;
+	background: #fff0e8;
+	padding: 2.5rem 2rem 2rem 2rem;
+	border-radius: 0.4rem;
+	margin-bottom: 6.5rem;
+}
+.container blockquote .big-text {
+	max-width: 426px;
+	margin: 0 !important;
+}
+.container .small-text {
+	font-size: 0.875rem;
+	color: var(--gray-text);
+}
+.container .widget .user-img {
+	width: 5rem;
+}
+@media(max-width:38em){
+
+}
+.container .widget .big-text {
+	margin-bottom: 6px !important;
+}
+.container .widget {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+@media(max-width:38em){
+    .container .widget {
+     flex-direction: column;
+     gap: 3rem;
+    }
+}
+.container .widget .user-info {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+.container .widget .social-links {
+	margin: 0;
+}
+.our-blog {
+	margin-bottom: 9rem;
+}
+ .single-post .contact-us p {
+	color: var(--gray-text) !important;
+}
